@@ -192,7 +192,7 @@ namespace Practic_1 {
             while (Console.ReadLine() != "0") {
                 Console.WriteLine("Удалять файл? 0 = ДА");
             }
-            File.Delete(zipFile);
+            File.Delete(zipFile); 
             fileInf_2 = new FileInfo(targetFolder + "\\" + filename + tail);
             if (!fileInf_2.Exists) return;
             Console.WriteLine("Имя файла: {0}", fileInf_2.Name);
