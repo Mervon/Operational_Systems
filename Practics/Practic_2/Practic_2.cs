@@ -369,7 +369,7 @@ namespace Practic_2 {
             stopWatch_2.Start();
             func_2(5, passes);
             stopWatch_2.Stop();
-            TimeSpan ts_2 = stopWatch_2.Elapsed;
+            TimeSpan ts_2 = stopWatch_2.Elapsed; 
             Console.WriteLine("RunTime of Non-parallel version : " + (ts_2.Seconds + 60 * ts_2.Minutes) + " seconds");
 
             Stopwatch stopWatch = new Stopwatch();
