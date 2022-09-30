@@ -4,7 +4,7 @@ using System.Security.Permissions;
 using ThreadState = System.Threading.ThreadState;
 
 namespace Practic_3 {
-    class Program {
+    class Program { 
         
         static void Main(string[] args) {
             Stack<int> pool = new Stack<int>();
