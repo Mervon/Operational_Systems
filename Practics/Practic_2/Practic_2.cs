@@ -330,7 +330,7 @@ namespace Practic_2 {
             });
 
             task1.Start();
-            task2.Start();
+            task2.Start(); 
             task3.Start();
             task4.Start();
             task5.Start();
