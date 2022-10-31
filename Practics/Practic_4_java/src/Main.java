@@ -21,11 +21,6 @@ public class Main {
         double duration = (endTime - startTime);
         double sec_ = 1000000000;
         System.out.println(duration / sec_);
-        startTime = System.nanoTime();
-        sol.def_1(15);
-        endTime = System.nanoTime();
-        duration = (endTime - startTime);
-        System.out.println(duration / sec_);
 
         for (int gh = 0; gh < 30; ++gh) {
             startTime = System.nanoTime();

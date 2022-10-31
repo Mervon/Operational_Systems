@@ -19,7 +19,7 @@ int main() {
         clock_t tStart = clock();
         def_1(15);
         average += (double)(clock() - tStart)/CLOCKS_PER_SEC;
+        //cout << (double)(clock() - tStart)/CLOCKS_PER_SEC << endl;
     }
-    cout << average/30 << endl; //3.0293 + 3.02443 + 3.02373
-
+    cout << average/30 << endl; //3.0293 + 3.02443 + 3.02373 + 3.0193
 }
